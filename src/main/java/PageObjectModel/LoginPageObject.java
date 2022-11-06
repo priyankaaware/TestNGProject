@@ -16,6 +16,7 @@ public class LoginPageObject {
 	By TryForFree = By.xpath("//a[@class='button secondary']");
 	By ActualErrorMessage = By.xpath("//div[@id='error']");
 
+	//Add in github
 	public LoginPageObject(WebDriver driver2) {
 
 		this.driver = driver2;
